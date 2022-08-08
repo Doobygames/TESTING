@@ -33,6 +33,8 @@ bool isManipulated() {
 	return true;
 }
 
+
+
 void dfs(int maxDepth,int cnt) {
 	if(maxDepth == cnt) {
 		if(isManipulated()) {
